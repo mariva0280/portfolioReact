@@ -108,6 +108,9 @@ span{
     border: 2px solid var(--color-gen);
     border-radius: 50px;
 }
+.list_experiences {
+    width: 100%;
+}
 /*styles studies*/
 .list_studies{
     display: grid;
@@ -413,6 +416,8 @@ ul li .desc::before{
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     position: relative;
+    max-width: 90%;
+    margin: 10px auto;
 }
 .close-icon {
     position:absolute;
@@ -421,7 +426,7 @@ ul li .desc::before{
     cursor:pointer;
     color:var(--color-error);
     font-size:  14px;
-   /* margin-left: 15px;*/
+    margin-left: 5px;
 }
 .close-icon:hover {
     color: #f00;
@@ -545,6 +550,7 @@ p{
     font-size: 1.1em;
 }
 
+
 @media screen and (max-width: 800px) {
     .menu{
         flex-direction: column;
@@ -577,12 +583,14 @@ p{
         display:none;
     }
     .aboutme {
-        display: flex;
-        flex-direction: column-reverse;
+        /*display: flex;
+        flex-direction: column-reverse;*/
+        grid-template-columns: 350px 1fr;
 
     }
     .imagen {
-        width: min(70%, 350px);
+       /* width: min(70%, 350px);*/
+       display: none;
     }
     .container-contact {
         flex-direction: column;
@@ -594,6 +602,12 @@ p{
     .contact-form {
         margin-left: 0;
         margin-top: 2em;
+    }
+    .msg-error {
+        font-size: 12px;
+    }
+    .close-icon {
+        font-size: 12px;
     }
 }
 /*responsive studies*/

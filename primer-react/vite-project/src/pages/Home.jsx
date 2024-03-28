@@ -26,6 +26,32 @@ export const Home = () => {
             <div className="imagen">
                 <img src="./public/assests/imgs/FotoCV.png.png" alt="imagen" />
             </div>
-        </div>        
+            <section className="experience" id="experiences">
+            <div className="headings">
+                <h2>Experience</h2>
+                <div className="divider"></div>
+            </div>
+            <div className="list_experiences">
+                <ul>
+                    <li style={{"--accent-color" : "#41516C"}}>
+                        <div className="date">Oct 2020 - Actualidad</div>
+                        <div className="title">Vendedor</div>
+                        <div className="desc">Proporcionar un excelente servicio al cliente y atender sus consultas e inquietudes</div>
+                    </li>
+                    <li style={{"--accent-color" : "#FBCA3E"}}>
+                        <div className="date">Feb 2006 - Actualidad</div>
+                        <div className="title">Propietario pequeña empresa</div>
+                        <div className="desc">Gestión de todos los aspectos del negocio, incluyendo el servicio al cliente,las ventas, el marketing y la gestión financiera</div>  
+                    </li>
+                    <li style={{"--accent-color" : "#E24A68"}}>
+                        <div className="date">Ene 2002 - Ene 2006</div>
+                        <div className="title">Auxiliar administrativo</div>
+                        <div className="desc">Tareas propias del puesto, facturación,contabilidad, recepción y programación de mercancias, atención al cliente</div>
+                    </li>
+                </ul>
+            </div>
+            </section>
+        </div>
+                
     )
 }

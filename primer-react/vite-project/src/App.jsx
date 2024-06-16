@@ -1,18 +1,24 @@
-import { useState } from 'react'
-import { Header } from './components/Header'
-import { Outlet } from 'react-router-dom'
-import { Footer } from './components/Footer'
+// src/App.jsx
+import { Outlet } from 'react-router-dom';
+import Header from './common/Header/Header';
+import Footer from './common/Footer/Footer';
+import { ThemeProvider } from './common/ThemeContext';
+import './App.css';
 
-export const App = () => {
+const App = () => {
   return (
-    <div className = "wrapper-main">
-      <Header/>
-      <main>
-        <Outlet/>
-      </main>
-      <Footer/>
-    </div>
+    <ThemeProvider>
+      <div className="wrapper-main">
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>  
+  );
+};
 
-  )
-}
+export default App;
+
 

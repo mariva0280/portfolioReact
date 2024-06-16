@@ -1,4 +1,4 @@
-:root{
+/*:root{
     --color-gen:#0FD7DE;
     --color-error:white;
 }
@@ -74,10 +74,10 @@ img{
 .nav-toggle {
     display:none;
 
-}
+}*/
 
 /* estilos about me*/
-.aboutme {
+/*.aboutme {
     margin: 0 auto;
     width: 80%;
     height: 80%;
@@ -94,7 +94,7 @@ img{
     padding-right: 20px;
 }
 h1{
-    /*font-size: 3em;*/
+    /*font-size: 3em;
     font-size: clamp(4vw, 1.5em, 3em);
 }
 span{
@@ -111,7 +111,7 @@ span{
 .list_experiences {
     width: 100%;
 }
-/*styles studies*/
+/*styles studies
 .list_studies{
     display: grid;
     align-content: center;
@@ -215,7 +215,7 @@ ul li .desc::before{
     z-index: -1;
     bottom:0.25rem;
 }
-/* estilos proyectos*/
+/* estilos proyectos
 .projects {
     display: flex;
     flex-flow: column;
@@ -242,27 +242,27 @@ ul li .desc::before{
 }
 
 .project-card:nth-child(1) {
-  /*animation-timeline: view();*/
+  /*animation-timeline: view();
   animation-name: scalingappear;
   animation-duration: 1s;
   animation-fill-mode: both;
-  /*animation-range: 5% contain 15%;*/
+  /*animation-range: 5% contain 15%;
 }
 
 .project-card:nth-child(2) {
-  /*animation-timeline: view();*/
+  /*animation-timeline: view();
   animation-name: scalingappear;
   animation-duration: 1s;
   animation-fill-mode: both;
-  /*animation-range: 15% contain 25%;*/
+  /*animation-range: 15% contain 25%;
 }
 
 .project-card:nth-child(3) {
-  /*animation-timeline: view();*/
+  /*animation-timeline: view();
   animation-name: scalingappear;
   animation-duration: 1s;
   animation-fill-mode: both;
-  /*animation-range: 25% contain 35%;*/
+  /*animation-range: 25% contain 35%;
 }
 
 .project-card img {
@@ -308,7 +308,7 @@ ul li .desc::before{
   gap: 10px;
   justify-content: center;
 }
-/*estilos skills*/
+/*estilos skills
 .list-skills{
     position: relative;
     display: flex;
@@ -374,7 +374,7 @@ ul li .desc::before{
     background: radial-gradient(circle, #FFDEE9 0%, #B5FFFC 100%);
     transform:rotate(calc(((var(--i) - 0 ) * 0.01turn)));
 }
-/* estilos contact*/
+/* estilos contact
 .container-contact{
     display: flex;
     align-items: center;
@@ -399,7 +399,7 @@ ul li .desc::before{
 .form{
     display:flex;
     flex-direction: column;
-    /*width: 30%;*/
+    /*width: 30%;
     margin-top: 2em;
 }
 .input-group{
@@ -494,7 +494,7 @@ textarea:valid~label{
 .row .input-group{
     flex-basis: 48%;
 }
-/*footer*/
+/*footer
 footer{
     width: 100%;    
     min-height: 100px;
@@ -584,12 +584,12 @@ p{
     }
     .aboutme {
         /*display: flex;
-        flex-direction: column-reverse;*/
+        flex-direction: column-reverse;
         grid-template-columns: 350px 1fr;
 
     }
     .imagen {
-       /* width: min(70%, 350px);*/
+       /* width: min(70%, 350px);
        display: none;
     }
     .container-contact {
@@ -610,7 +610,7 @@ p{
         font-size: 12px;
     }
 }
-/*responsive studies*/
+/*responsive studies
 @media (min-width: 40rem){
     ul{
         grid-template-columns: 1fr 0.25rem 1fr ;
@@ -638,4 +638,4 @@ p{
     ul li:nth-child(odd) .date{
         border-radius: 0 calc(3rem / 2) calc(3rem / 2) 0;
     }
-}
+}*/

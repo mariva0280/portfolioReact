@@ -20,8 +20,9 @@
   }
 
   a {
-    width: fit-content;
+    width: -moz-fit-content;
     align-self: center;
+    width: fit-content;
   }
 
   button {

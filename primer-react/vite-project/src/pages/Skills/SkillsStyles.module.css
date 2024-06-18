@@ -38,8 +38,10 @@ hr {
         margin: 4rem 2rem; 
       }
     .skillList {
+       max-width: -moz-fit-content;
        max-width: fit-content;
        gap: 30px;
+       
 
        p {
         font-size: 20px;

@@ -31,10 +31,10 @@ function Home() {
         </h1>
         <h2>Junior Developer</h2>
         <span>
-          <a href='https://linkedin.com' target='_blank' rel="noreferrer">
+          <a href='https://linkedin.com' target='_blank'>
             <img src={linkedinIcon} alt='Linkedin icon' />
           </a>
-          <a href='https://github.com' target='_blank' rel="noreferrer">
+          <a href='https://github.com' target='_blank'>
             <img src={githubIcon} alt='GitHub Icon' />
           </a>
         </span>
